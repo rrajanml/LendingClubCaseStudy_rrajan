@@ -7,50 +7,45 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
 - Lending Club is a loan Market place which provides Personal loans, business loans etc, but some of the borrowers does not return the borowed amount along with  intexisting interest back to the lenders, which causes a monetory loss to the Company.
 - Using Exploratory Data Analysis, understanding of risk analytics in banking and financial services like prominent factors which can help understand how data is used to minimise the risk of losing money while lending to customers. 
 - Dataset used are loan.csv for data & Data_Dictionary for Columns
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 ## Conclusions
-- 
-Majority of borrowers asked for rounded number that is 5000 , 10,000 as observed from the Distribution graph
-Majority of the people were funded
-In the 129 people whose loan were not approved, majority of the people paid off the loan so it is better to provide them loans and reduce the business loss
-Majority of the people have took the 36 months tenure period
-Majority of the people have taken loan in the end of the year
-Majority of the people have taken loan in 2011 and after every year, the number of loan borrowers have increased
-California state has highest number of loan count
-People having 10+ year experience are majority of applicants of the loan
-Majority of the people who applied for the loan are living on rent or mortgage
-The interest rate in charged off were higher than that of fully paid which may infer that higher interest rate could result in higher charge offs
-The percentage of defaulters are higher in 60 months term with about 25% charge-off whereas it is just 11% for 36 month term. So, there is a possibility that longer term loans are more risky and prone to higher default
-People having less income are more likely to default.
-Small business are more likely to charge off compared to other purpose as they are the 28% of people who charged off
-By observing the median and 3rd quartile people who have taken higher installment amount are likely to charge off
-As the grades gets lower, charge off rate increases proportionately
-As the sub-grades gets lower, charge off rate increases proportionately
-Higher the dti,more likely the charge off
-As number of bankruptcies increases the charge off rate also increases
+- Loan Applied lies between 500 -35000 Loan Amount
+- More of the Amount asked by the borrowers  are 5000 & 10000.
+- Most of the borrowers need Amount less than 15000.
+- Most of the people ‘s amount is Approved.
+- More people have charged off.
+- Most of the people, around more than 25000 people have chosen 36 month tenure, while only 1000 people have chosen 60 month tenure.
+Most of the people have taken loan in 2011 and then after each year, the number of loan borrowers have increased.
+- Most of the people taken loan in the end of the year.
+- There is a need to promote other months mainly in the begging of each year to increase profit.
+- People having 10+ years of experience are most of the Loan applicants
+- Years of Experience values lies between 0 – 10.
+- Most of the people who applied for loan are living either on rent or Mortgage.
+- This concludes that around 90% of  people does not own a Home.
+- California State have the highest number of Loans.
+- There is a requirement to promote loans to other states as well to increase profits
 
-Lending club should reduce the high interest loans for 60 months tenure, they are prone to loan 
-default.
-Grades are good metric for detecting defaulters. Lending club should examine more information 
-from borrowers before issuing loans to Low grade (G to A).
-Lending Club should control their number of loan issues to borrowers who are from CA, FL and 
-NY to make profits.
-Small business loans are defaulted more. Lending club should stop/reduce issuing the loans to 
-them.
-Borrowers with mortgage home ownership are taking higher loans and defaulting the approved 
-loans. Lending club should stop giving loans to this category when loan amount requested is more 
-than 12000.
-People with more number of public derogatory records are having more chance of filing a 
-bankruptcy. Lending club should make sure there are no public derogatory records for borrower
-
+- The interest rate in charged Off is higher than that of Fully Paid, which incurs that higher interest rates results in higher charge Offs.
+The Percentage of Loan not payed off is more in 60 months tenure with about 25% charge off, while It is 11% for 36 month tenure.
+- Thus Longer term loans are more risky & prone to higher amount of people not paying off.
+- When the loan interest rate is higher, it is likely to have high defaulter.
+- It is observed that borrowers fully paid is higher who rents their Home & Mortgage.
+- Borrowers who own their home have less Charged off.
+- The median and the 3rd Quartile people who have taken higher instalment amount are more likely to charge off.
+- As the grades get lower, charge off rates get increased proportionately.
+- A1 grade is the best grade to give a loan.
+- As subgrades gets low, Charge off rate increases proportionately, it is observed that Lower grade loans have higher charge offs.
+- Employment Length as fresher or  experienced people, Charged off is constant.
+- People having less income are likely to default .
+- The median Annual income is less for charged off people.
+- It is observed that Small business are likely to charge off when compared to other purpose, as they are 28% of people got charged off.
+- It is observed that higher the DTI, there are more likely to have a charged Off.
+- The number of Bankrupts & charge off rate increases 
 
 ## Technologies Used
 - Python - version 3.8.3
